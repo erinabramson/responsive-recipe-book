@@ -1,3 +1,30 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+i, h1, h2, h3, h4, h5 {
+  font-family: 'Gelasio', serif;
+}
+
+nav {
+  background-color: #fff;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(180,12,35);
+}
+
+i a {
+  text-decoration: none;
+  color: rgb(180,12,35);
+}
+
+.logo {
+  text-align: center;
+}
+
 .banner {
   overflow: hidden;
   position: relative;
@@ -15,6 +42,15 @@
   background-color: rgb(180,12,35, .7);
 }
 
-.header {
-  background-color: #D7D7D7;
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
 }

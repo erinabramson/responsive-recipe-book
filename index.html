@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Gelasio:400,400i,500,700|Raleway:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <ul class="skip-links">
@@ -15,26 +16,35 @@
     <li><a href="#main">Jump to Main content</a></li>
   </ul>
   <header role="banner">
-    <nav role="navigation" id="nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Recipes</a></li>
+    <div class="grid">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 logo gutter-1-2">
+        <i class="bold giga">
+          <a href="index.html">
+            Holiday Cookbook
+          </a>
+        </i>
+      </div>
+    <nav class="unit xs-1 s-1-2 m-1-2 l-1-2" role="navigation" id="nav">
+      <ul class="list-group-inline">
+        <li class="block text-center gutter-1-2"><a href="#">Home</a></li>
+        <li class="block text-center gutter-1-2"><a href="#">Recipes</a></li>
       </ul>
     </nav>
+  </div>
     <div class="banner">
       <div class="embed embed-16by9 push-2">
       <img class="img-flex embed-item" src="images/banner.jpg" alt="…">
     </div>
-    <div class="banner-text gutter-1-2 xs-0 m-1 island">
-      <h1 class="push-0 bold peta text-center">Fabulously festive holiday cookie recipes</h1>
+    <div class="banner-text gutter-1-2 xs-0 s-1 m-1 island">
+      <h1 class="push-1-2 bold peta text-center">Fabulously festive holiday cookie recipes</h1>
       <p class="push-0 mega text-center"> — plus how to freeze and ship them right!</p>
     </div>
 
 
   </header>
 
-  <main role="main" id="main">
-    <div class="gutter-1-2 xs-1 m-0">
+  <main role="main" id="main" class="gutter-1-2">
+    <div class="gutter-1-2 xs-1 s-0 m-0">
       <h1 class="push-0 bold text-center">Fabulously festive holiday cookie recipes</h1>
       <p class="text-center"> — plus how to freeze and ship them right!</p>
     </div>
