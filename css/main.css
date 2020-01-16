@@ -1,0 +1,20 @@
+.banner {
+  overflow: hidden;
+  position: relative;
+  background-position: center center;
+  max-height: 24em;
+}
+
+.banner-text {
+  position: absolute;
+  width: 50%;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  background-color: rgb(180,12,35, .7);
+}
+
+.header {
+  background-color: #D7D7D7;
+}
