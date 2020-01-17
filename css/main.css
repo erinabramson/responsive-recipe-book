@@ -42,6 +42,14 @@ i a {
   background-color: rgb(180,12,35, .7);
 }
 
+.xs-bg {
+  background-color: rgb(180,12,35);
+  margin: 0;
+}
+
+.white-text {
+  color: white;
+}
 
 @media only screen and (min-width: 25em) {
 
