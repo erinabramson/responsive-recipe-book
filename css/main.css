@@ -64,6 +64,17 @@ i a {
   text-decoration: none;
 }
 
+.crinkle-img {
+  background-image: url('../images/crinkle-cookies.jpg');
+  background-size: cover;
+  background-position: center; 
+}
+
+.linzer-img {
+  background-image: url('../images/linzer-cookies.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 @media only screen and (min-width: 25em) {
 
