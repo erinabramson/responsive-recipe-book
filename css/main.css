@@ -51,6 +51,19 @@ i a {
   color: white;
 }
 
+.card {
+  border-width: 1.25px;
+  border-style: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  /*height: ;*/
+}
+
+.card a {
+  color: rgb(180,12,35);
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .logo {
